@@ -7,6 +7,7 @@ import java.io.BufferedReader;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.logging.Logger;
+import java.util.logging.Level;
 
 
 public class RpiResource {
@@ -27,25 +28,15 @@ public class RpiResource {
 		Double f = new Double(0);
 		Runtime r = Runtime.getRuntime();
 		try{
-			
-			Process process = r.exec("ls");
-			process.waitFor();
-			BufferedReader br = new BufferedReader(new InputStreamReader(process.getInputStream()));
-			String line = br.readLine();
-			System.out.println(line);
-			
-		}
-		catch (Exception e){}
-		try{
 			Process process = r.exec(COMMAND + " " + url);
 			process.waitFor();
 			BufferedReader br = new BufferedReader(new InputStreamReader(process.getInputStream()));
 			String line = br.readLine();
-			System.out.println(line);
+			logger.log(Level.INFO, String.format("Getting value from sensor:  %s - %s", url,line));
 			f = Double.parseDouble(line);
 		}
 		catch(Exception e){
-			System.out.println(e);
+			logger.log(Level.WARNING, e.getMessage(), e);
 		}
 
 		return f;
