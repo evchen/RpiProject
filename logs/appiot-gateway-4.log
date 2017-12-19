@@ -1,0 +1,8 @@
+20171219 13:42:40 | INFO | com.ericsson.appiot.examples.gateway.rpigateway.MyAppIoTListener | onResourceReadRequest | RECEIVED RESOURCE READ REQUEST
+20171219 13:42:40 | INFO | com.ericsson.appiot.examples.gateway.rpigateway.MyAppIoTListener | onResourceReadRequest | Correlation ID:  73a7e096-244a-4382-9a76-511078d3be5a
+20171219 13:42:40 | INFO | com.ericsson.appiot.examples.gateway.rpigateway.MyAppIoTListener | onResourceReadRequest | End point:  g4rag3
+20171219 13:42:40 | INFO | com.ericsson.appiot.examples.gateway.rpigateway.MyAppIoTListener | onResourceReadRequest | Cancel Message:
+URL:  /3303/0/5700
+Value:  null
+20171219 13:42:40 | INFO | com.ericsson.appiot.examples.gateway.rpigateway.MyAppIoTListener | onResourceReadRequest | Resource read request answered with valid
+20171219 13:42:41 | INFO | com.ericsson.appiot.examples.gateway.rpigateway.MyAppIoTListener | onResourceReadRequest | Sent back the value 30 to AppIoT as response

@@ -10,8 +10,8 @@ def humidity():
     return
 
 map = {
-        "temp" : temp,
-        "humidity" : humidity,
+        "/3303/0/5700" : temp,
+        "/3304/0/5700" : humidity,
         }
 
 val = sys.argv[1]

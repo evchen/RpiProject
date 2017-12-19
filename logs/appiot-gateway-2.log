@@ -1,12 +1,8 @@
-20171219 13:36:03 | INFO | com.ericsson.appiot.examples.gateway.rpigateway.MyAppIoTListener | onResourceReadRequest | RECEIVED RESOURCE READ REQUEST
-20171219 13:36:03 | INFO | com.ericsson.appiot.examples.gateway.rpigateway.MyAppIoTListener | onResourceReadRequest | Correlation ID:  031aa718-4732-4525-a0f2-ccec9ab5f4fa
-20171219 13:36:03 | INFO | com.ericsson.appiot.examples.gateway.rpigateway.MyAppIoTListener | onResourceReadRequest | End point:  g4rag3
-20171219 13:36:03 | INFO | com.ericsson.appiot.examples.gateway.rpigateway.MyAppIoTListener | onResourceReadRequest | Cancel Message:
+20171219 15:35:34 | INFO | com.ericsson.appiot.examples.gateway.rpigateway.MyAppIoTListener | onResourceReadRequest | RECEIVED RESOURCE READ REQUEST
+20171219 15:35:34 | INFO | com.ericsson.appiot.examples.gateway.rpigateway.MyAppIoTListener | onResourceReadRequest | Correlation ID:  f14994b2-5594-4c97-ba17-0c8edafd2348
+20171219 15:35:34 | INFO | com.ericsson.appiot.examples.gateway.rpigateway.MyAppIoTListener | onResourceReadRequest | End point:  g4rag3
+20171219 15:35:34 | INFO | com.ericsson.appiot.examples.gateway.rpigateway.MyAppIoTListener | onResourceReadRequest | Cancel Message:
 URL:  /3303/0/5700
 Value:  null
-20171219 13:36:24 | INFO | com.ericsson.appiot.examples.gateway.rpigateway.MyAppIoTListener | onResourceReadRequest | RECEIVED RESOURCE READ REQUEST
-20171219 13:36:24 | INFO | com.ericsson.appiot.examples.gateway.rpigateway.MyAppIoTListener | onResourceReadRequest | Correlation ID:  813701d8-48c8-4e2b-809c-dd3a2fedb5c9
-20171219 13:36:25 | INFO | com.ericsson.appiot.examples.gateway.rpigateway.MyAppIoTListener | onResourceReadRequest | End point:  g4rag3
-20171219 13:36:25 | INFO | com.ericsson.appiot.examples.gateway.rpigateway.MyAppIoTListener | onResourceReadRequest | Cancel Message:
-URL:  /3303/0/5700
-Value:  null
+20171219 15:35:34 | INFO | com.ericsson.appiot.examples.gateway.rpigateway.MyAppIoTListener | onResourceReadRequest | Resource read request answered with valid
+20171219 15:35:35 | INFO | com.ericsson.appiot.examples.gateway.rpigateway.MyAppIoTListener | onResourceReadRequest | Sent back the value 30 to AppIoT as response
