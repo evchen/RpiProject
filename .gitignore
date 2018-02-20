@@ -1,0 +1,6 @@
+# Maven ignore
+logs/
+target/
+
+# registration ticket ignore
+.json
