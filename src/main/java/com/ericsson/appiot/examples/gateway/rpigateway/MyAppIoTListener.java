@@ -48,7 +48,7 @@ public class MyAppIoTListener extends BaseAppIoTListener {
 				periodicDataCollect();
 			}
 
-		}, 1, 1, TimeUnit.MINUTES);
+		}, 10, 0, TimeUnit.SECONDS);
 	}
 
 	private void periodicDataCollect(){
